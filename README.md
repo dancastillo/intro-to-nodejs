@@ -12,6 +12,12 @@ node index.js
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 ```
 
+## Get an API key 
+To get an api key.
+ * Visit https://market.mashape.com/blaazetech/robohash-image-generator
+ * Sign up for an account and recieve your api key.
+ * Then replace 'YOUR_API_KEY' in key.js with a real api key.
+
 ## Dependencies
   * [express@4.16.2](http://expressjs.com/en/4x/api.html)
   * [random-string@1.1.5](https://github.com/valiton/node-random-string)
