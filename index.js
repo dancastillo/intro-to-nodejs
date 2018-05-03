@@ -1,8 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
+const uc = require('upper-case');
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>');
+  res.send(uc('hello node js'));
 });
 
 app.listen(3000, () => {
